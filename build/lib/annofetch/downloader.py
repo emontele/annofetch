@@ -6,7 +6,7 @@ from pathlib import Path
 from tqdm import tqdm
 import importlib.resources
 
-# _load_chromosome_map function remains the same as before
+
 def _load_chromosome_map(filename: str) -> dict:
     """Loads a two-column chromosome mapping file from the package's data directory."""
     mapping = {}
@@ -48,7 +48,6 @@ class EnsemblDownloader:
         if not self.chr_map:
             print(f"ℹ️  Note: No mapping file found for build '{self.build}'. Chromosome style conversion will be unavailable.")
 
-    # _get_gtf_processor function remains the same as before
     def _get_gtf_processor(self, add_ucsc_style: bool):
         """Returns a line-processing function for GTF files based on user's choice."""
         if add_ucsc_style and self.chr_map:
