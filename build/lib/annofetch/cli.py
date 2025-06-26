@@ -14,7 +14,6 @@ app = typer.Typer(
 def get_downloader(species: str, release: int, build: str, output_dir: str):
     """
     Helper function to initialize the EnsemblDownloader and handle potential errors.
-    This avoids code duplication between commands.
     """
     try:
         return EnsemblDownloader(species=species, release=release, build=build, output_dir=output_dir)
