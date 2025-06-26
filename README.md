@@ -1,6 +1,6 @@
 `annofetch` is a powerful command-line tool and Python package for effortlessly downloading genome FASTA files and gene annotation GTF files directly from Ensembl's FTP servers. It supports on-the-fly decompression and crucial post-processing steps like chromosome name style conversion (e.g., Ensembl's `1` to UCSC's `chr1`) based on the specified genome build.
 
-Inspired by Snakemake rules, `annofetch` provides a convenient and reproducible way to obtain reference genomic data for your bioinformatics pipelines.
+`annofetch` provides a convenient and reproducible way to obtain reference genomic data for your bioinformatics pipelines.
 
 ## ✨ Features
 
