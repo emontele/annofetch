@@ -8,7 +8,7 @@
 * **Download Annotations:** Fetch GTF files for various species and builds from Ensembl.
 * **On-the-Fly Decompression:** Automatically handles `.gz` compressed files.
 * **Chromosome Name Conversion:**
-    * Optionally amp `ensemble style chr` to convert to UCSC style (e.g., `1` to `chr1`).
+    * Optionally map `ensemble style chr` to convert to UCSC style (e.g., `1` to `chr1`).
     * **Build-Aware Mapping:** Automatically selects the correct chromosome mapping file (e.g., GRCh38, GRCm39).
 * **Clean Command-Line Interface:** Easy-to-use commands powered by `Typer`.
 * **Pythonic API:** Can be integrated into larger Python scripts and workflows.
